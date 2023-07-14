@@ -1,7 +1,12 @@
 import React from "react";
+import { SignUp } from "./component/SignUp";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <SignUp />
+    </div>
+  );
 }
 
 export default App;
