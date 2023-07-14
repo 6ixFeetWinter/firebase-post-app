@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/style.css";
 import { Sidebar } from "./layout/Sidebar";
+import { Profile } from "./layout/Profile";
 export const Home = () => {
   return (
     <div className="p-home__display">
@@ -8,7 +9,9 @@ export const Home = () => {
         <Sidebar />
       </div>
       <div className="p-home__board-area"></div>
-      <div className="p-home__profile-area"></div>
+      <div className="p-home__profile-area">
+        <Profile />
+      </div>
     </div>
   );
 };
